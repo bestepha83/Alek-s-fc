@@ -14,7 +14,12 @@
             <img src="./images/logo.png" alt="Logo">
             <p>Ramona FC</p>
         </div>
-        <ul>
+        <div class="burger">
+            <div class = "line1"></div>
+            <div class = "line2"></div>
+            <div class = "line3"></div>
+        </div>
+        <ul class="nav-links">
             <li><a href="index.html">Home</a></li>
             <li><a href="soccer.html">Soccer</a></li>
             <li><a href="volleyball.html">Volleyball</a></li>
@@ -28,10 +33,20 @@
         </div>
         <div class="home-body">
             <h1>Welcome to Ramona FC</h1>
-            <h4>The newest addition to the USL.</h4>
             <h4>Coming to you in 2022!</h4>
             <button href="soccer.html">Explore</button>         
         </div>
     </section>
 </body>
+<script>
+    const navSlide = () => {
+        const burger = document.querySelector('.burger');
+        const nav = document.querySelector('.nav-links');
+        burger.addEventListener('click', ()=> {
+            nav.classList.toggle('nav-active');
+        });
+    }
+    navSlide();
+
+</script>
 </html>

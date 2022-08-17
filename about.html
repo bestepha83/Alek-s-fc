@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ramona FC | About</title>
+    <title>Ramona FC | About Us</title>
     <link rel="shortcut icon" type="image/png" href = "./images/logo.png">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -14,7 +14,12 @@
             <img src="./images/logo.png" alt="Logo">
             <p>Ramona FC</p>
         </div>
-        <ul>
+        <div class="burger">
+            <div class = "line1"></div>
+            <div class = "line2"></div>
+            <div class = "line3"></div>
+        </div>
+        <ul class="nav-links">
             <li><a href="index.html">Home</a></li>
             <li><a href="soccer.html">Soccer</a></li>
             <li><a href="volleyball.html">Volleyball</a></li>
@@ -36,4 +41,15 @@
 
     </section>
 </body>
+<script>
+    const navSlide = () => {
+        const burger = document.querySelector('.burger');
+        const nav = document.querySelector('.nav-links');
+        burger.addEventListener('click', ()=> {
+            nav.classList.toggle('nav-active');
+        });
+    }
+    navSlide();
+
+</script>
 </html>

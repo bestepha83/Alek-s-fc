@@ -11,6 +11,9 @@ body {
 
 
 /* NAVIGATION */
+.burger {
+    display: none;
+}
 
 nav {
     height: 10vh;
@@ -40,12 +43,13 @@ nav p {
     font-size: 1.3rem;
 }
 
-nav ul {
+nav .nav-links {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 50%;
     height: 100%;
+    z-index: 99;
 }
 nav li {
     height: 100%;
@@ -56,7 +60,7 @@ nav li {
     list-style: none;
 }
 
-nav ul li a {
+nav .nav-links li a {
     height: 100%;
     width: 100%;
     display: flex;
@@ -67,12 +71,19 @@ nav ul li a {
     text-decoration: none;
     transition: 0.2s ease;
 }
-nav ul li a:hover {
+nav .nav-links li a:hover {
     background-color: rgba(0,0,0, 0.5);
 }
-nav ul li a:active {
+nav .nav-links li a:active {
     background-color: rgba(0,0,0, 0.7);
 }
+
+nav .nav-active { 
+    z-index: 99 !important;
+    opacity: 1 !important;
+}
+
+
 
 /* HOME SECTION */
 
@@ -116,7 +127,7 @@ nav ul li a:active {
 .home .home-body button {
     margin-top: 1rem;
     font-size: 1.1rem;
-    padding: 1.4rem 3rem;
+    padding: 1.2rem 3rem;
     background-color: white;
     border: solid black 2px;
     border-radius: 12px;
@@ -270,4 +281,59 @@ nav ul li a:active {
 
 .about .about-body .about-history p {
     font-size: 1.5rem;
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+    .home {
+        margin-top: 2rem;
+        flex-direction: column;
+    }
+    .home .home-img {
+        width: 70%;
+    }
+    .home .home-body {
+        width: 70%;
+    }
+    .home .home-body h1 {
+        font-size: 2rem;
+    }
+    .home .home-body h4 {
+        font-size: 1rem;
+    }
+    .burger {
+        display: block;
+        cursor: pointer;
+        margin-right: 1.5rem;
+    }
+    .line1, .line2, .line3 {
+        height: 3px;
+        width: 2rem;
+        border-radius: 2px;
+        background-color:rgb(255, 255, 255);
+        margin: 6px 0;
+    }
+
+    nav .nav-links {
+        position: absolute;
+        right: 0px;
+        height: auto;
+        top: 10vh;
+        background-color:#262626;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        opacity: 0;
+        transition: opacity 0.4s ease-in-out;
+        z-index: -1;
+    }
+
+    nav .nav-links li a {
+        font-size: 2rem;
+        margin: 1.5rem 0;
+    }
+
 }
