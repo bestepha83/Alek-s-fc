@@ -78,11 +78,6 @@ nav .nav-links li a:active {
     background-color: rgba(0,0,0, 0.7);
 }
 
-nav .nav-active { 
-    z-index: 99 !important;
-    opacity: 1 !important;
-}
-
 
 
 /* HOME SECTION */
@@ -296,6 +291,7 @@ nav .nav-active {
     .home .home-body {
         width: 70%;
         align-items: center;
+        text-align: center;
     }
     .home .home-body h1 {
         font-size: 2rem;
@@ -306,8 +302,11 @@ nav .nav-active {
 
 
     nav .logo {
-        width: 40%;
+        width: 50%;
         margin-right: 1.5rem;
+    }
+    nav p {
+        margin-left: 0.5rem;
     }
     .burger {
         display: block;
@@ -325,16 +324,16 @@ nav .nav-active {
     nav .nav-links {
         position: absolute;
         right: 0px;
-        height: 90vh;
+        height: 70vh;
         top: 10vh;
         background-color:#262626;
-        display: flex;
+        display: none;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         width: 100%;
         opacity: 0;
-        transition: opacity 0.4s ease-in-out;
+        transition: all 0.4s ease;
         z-index: -1;
     }
 
@@ -346,4 +345,9 @@ nav .nav-active {
         font-size: 2rem;
     }
 
+}
+nav .nav-active { 
+    display: flex !important;
+    z-index: 99 !important;
+    opacity: 1 !important;
 }
