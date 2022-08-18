@@ -315,9 +315,29 @@ nav .nav-links li a:active {
         font-size: 1rem;
     }
 
+
     .soccer h1 {
         font-size: 2rem;
+
     }
+    .soccer .soccer-body {
+        flex-direction: column;
+    }
+    .soccer .soccer-body .soccer-img {
+        width: 80%;
+    }
+    .soccer .soccer-body .soccer-content {
+        width: 80%;
+    }
+    .soccer .soccer-body .soccer-content h3 {
+        margin-top: 1rem;
+        font-size: 1.5rem;
+    }
+    .soccer .soccer-body .soccer-content p {
+        font-size: 1rem;
+    }
+
+
     .volleyball h1 {
         font-size: 2rem;
 
