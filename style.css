@@ -41,6 +41,10 @@ nav .logo:hover {
 nav img {
     height: 80%;
 }
+nav a {
+    text-decoration: none;
+}
+
 nav p {
     margin-left: 1rem;
     color: white;
