@@ -193,6 +193,15 @@ nav .nav-links li a:active {
     width: 40%;
 }
 
+.soccer .soccer-body .soccer-content h3 {
+    font-size: 2rem;
+}
+
+.soccer .soccer-body .soccer-content p {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
 
 
 /* VOLLEYBALL SECTION */
@@ -236,6 +245,15 @@ nav .nav-links li a:active {
     align-items: center;
     flex-direction: column;
     width: 40%;
+}
+
+.volleyball .volleyball-body .volleyball-content h3 {
+    font-size: 2rem;
+}
+
+.volleyball .volleyball-body .volleyball-content p {
+    margin-top: 1rem;
+    font-size: 1.5rem;
 }
 
 
