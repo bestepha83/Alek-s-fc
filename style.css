@@ -324,7 +324,16 @@ nav .nav-links li a:active {
     .about h1 {
         font-size: 2rem;
     }
+    .about .about-body {
+        flex-direction: column;
+    }
+    .about .about-section-2 {
+        flex-direction: column-reverse;
+    }
     .about .about-body .about-history h4 {
+        font-size: 1.5rem;
+    }
+    .about .about-body .about-history p {
         font-size: 1rem;
     }
 
