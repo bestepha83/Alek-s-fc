@@ -239,7 +239,7 @@ nav .nav-links li a:active {
     margin-top: 6rem;
 }
 
-.about h2 {
+.about h1 {
     font-size: 4rem;
     margin-bottom: 2rem;
 }
@@ -297,6 +297,20 @@ nav .nav-links li a:active {
         font-size: 2rem;
     }
     .home .home-body h4 {
+        font-size: 1rem;
+    }
+
+    .soccer h1 {
+        font-size: 2rem;
+    }
+    .volleyball h1 {
+        font-size: 2rem;
+
+    }
+    .about h1 {
+        font-size: 2rem;
+    }
+    .about .about-body .about-history h4 {
         font-size: 1rem;
     }
 
