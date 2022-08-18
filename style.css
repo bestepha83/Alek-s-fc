@@ -284,7 +284,7 @@ nav .nav-links li a:active {
     width: 40%;
 }
 
-.about .about-body .about-history h4 {
+.about .about-body .about-history h3 {
     font-size: 2rem;
 }
 
@@ -322,6 +322,25 @@ nav .nav-links li a:active {
         font-size: 2rem;
 
     }
+    .volleyball .volleyball-body {
+        flex-direction: column;
+    }
+    .volleyball .volleyball-body .volleyball-img {
+        width: 80%;
+    }
+    .volleyball .volleyball-body .volleyball-content {
+        width: 80%;
+    }
+    .volleyball .volleyball-body .volleyball-content h3 {
+        margin-top: 1rem;
+        font-size: 1.5rem;
+    }
+    .volleyball .volleyball-body .volleyball-content p {
+        font-size: 1rem;
+    }
+
+
+
     .about h1 {
         font-size: 2rem;
     }
@@ -337,7 +356,7 @@ nav .nav-links li a:active {
     .about .about-body .about-history {
         width: 80%;
     }
-    .about .about-body .about-history h4 {
+    .about .about-body .about-history h3 {
         margin-top: 1rem;
         font-size: 1.5rem;
     }
