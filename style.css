@@ -143,6 +143,7 @@ nav .nav-links li a:active {
 }
 
 .home .home-body button a {
+    color: black;
     text-decoration: none;
 }
 
