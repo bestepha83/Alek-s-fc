@@ -88,6 +88,40 @@ nav .nav-links li a:active {
 
 
 
+/* ANNOUNCEMENTS */
+.announcements {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 10vh;
+}
+
+.announcements .announcement {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    width: 100%;
+    background-color: red;
+    border: solid black 2px;
+}
+.announcements .announcement h6 {
+    font-size: 1.4rem;
+}
+.announcements .announcement p {
+    font-size: 1.2rem;
+}
+.announcements .announcement a {
+    font-size: 1rem;
+    color: black;
+    transition: 0.2s ease;
+}
+.announcements .announcement a:hover {
+    color: darkblue;
+}
+
+
+
 /* HOME SECTION */
 
 .home {
