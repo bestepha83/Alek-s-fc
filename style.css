@@ -315,6 +315,82 @@ nav .nav-links li a:active {
 
 
 
+
+
+
+/* PLAYERS SECTION */
+
+.players {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    margin-top: 6rem;
+}
+
+.players h1 {
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+
+.players .players-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.players .players-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.players .players-section .players-cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.players .players-section .players-cards .players-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+
+.players .players-section .players-cards .players-card .players-img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.players .players-section .players-cards .players-card .players-img img {
+    width: 100%;
+}
+
+.players .players-section .players-cards .players-card .players-history {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.players .players-section .players-cards .players-card .players-history h3 {
+    font-size: 2rem;
+}
+.players .players-section .players-cards .players-card .players-history h6 {
+    font-size: 1.5rem;
+}
+
+
+
+
 @media only screen and (max-width: 1000px) {
     .home {
         margin-top: 2rem;
