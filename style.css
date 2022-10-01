@@ -393,11 +393,12 @@ nav .nav-links li a:active {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 30%;
+    width: 40%;
+    margin-bottom: 2rem;
 }
 
 .players .players-section .players-cards .players-card .players-img {
-    width: 100%;
+    width: 70%;
     display: flex;
     justify-content: center;
     align-items: center;
