@@ -418,9 +418,15 @@ nav .nav-links li a:active {
 
 .players .players-section .players-cards .players-card .players-history h3 {
     font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+.players .players-section .players-cards .players-card .players-history h4 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
 }
 .players .players-section .players-cards .players-card .players-history h6 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
 }
 
 
@@ -558,6 +564,11 @@ nav .nav-links li a:active {
     }
     nav .nav-links li a {
         font-size: 2rem;
+    }
+
+
+    .players .players-section .players-cards .players-card {
+        width: 80%;
     }
 
 }
