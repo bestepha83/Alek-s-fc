@@ -432,6 +432,78 @@ nav .nav-links li a:active {
 
 
 
+/* NEWS SECTION */
+.news {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    height: auto;
+    width: 100%;
+    margin: 6rem 0 2rem;
+}
+
+.news  h1{
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+
+.news .article {
+    display: flex;
+    justify-content: center;
+    align-items: space-around;
+    text-align: left;
+    width: 90%;
+    background-color: navy;
+    color:rgb(239, 239, 239);
+    padding: 2rem;
+    border-radius: 20px;
+}
+
+.news .article .news-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+}
+
+.news .article .news-img img {
+    width: 80%;
+}
+.news .article .news-img p {
+    font-size: 1rem;
+    margin-top: 1rem;
+    width: 80%;
+}
+
+.news .article .news-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+}
+
+.news .article h2{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.news .article h5{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.news .article p{
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+
+
+
 @media only screen and (max-width: 1000px) {
     .home {
         margin-top: 2rem;
