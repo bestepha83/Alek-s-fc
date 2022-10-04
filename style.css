@@ -461,7 +461,32 @@ nav .nav-links li a:active {
     border-radius: 20px;
 }
 
-.news .article .news-img {
+.news .article .news-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.news .article .news-body h2{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.news .article .news-body h5{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.news .article .news-body .news-content {
+    display: flex;
+    justify-content: center;
+    align-items: space-around;
+    width: 100%;
+}
+
+.news .article .news-body  .news-content .news-img {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -469,16 +494,16 @@ nav .nav-links li a:active {
     width: 50%;
 }
 
-.news .article .news-img img {
-    width: 80%;
+.news .article .news-body  .news-content .news-img img {
+    width: 70%;
 }
-.news .article .news-img p {
+.news .article .news-body  .news-content .news-img p {
     font-size: 1rem;
     margin-top: 1rem;
     width: 80%;
 }
 
-.news .article .news-content {
+.news .article .news-body  .news-content .news-text {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -486,17 +511,7 @@ nav .nav-links li a:active {
     width: 50%;
 }
 
-.news .article h2{
-    font-size: 2rem;
-    margin-bottom: 1rem;
-}
-
-.news .article h5{
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
-}
-
-.news .article p{
+.news .article .news-body  .news-content .news-text p{
     font-size: 1.2rem;
     margin-bottom: 1rem;
 }
@@ -641,6 +656,23 @@ nav .nav-links li a:active {
 
     .players .players-section .players-cards .players-card {
         width: 80%;
+    }
+
+    .news .article .news-body h2, .news .article .news-body h5{
+        text-align: center;
+    }
+    .news .article .news-body .news-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .news .article .news-body  .news-content .news-img {
+        width: 80%;
+        margin-bottom: 2rem;
+    }
+
+    .news .article .news-body  .news-content .news-text {
+        width: 100%;
     }
 
 }
